@@ -1,0 +1,3 @@
+[host_group]
+black-pearl.local
+host_alias ansible_host=black-pearl.local

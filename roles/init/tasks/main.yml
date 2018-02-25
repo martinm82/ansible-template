@@ -1,0 +1,11 @@
+---
+# tasks file for init
+
+- name: Print global var
+  debug: msg="{{ global_var }}"
+
+- name: Print group var
+  debug: msg="{{ group_var }}"
+
+- name: Print host var
+  debug: msg="{{ host_var }}"
